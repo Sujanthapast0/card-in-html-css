@@ -1,0 +1,113 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url(colorful-shopping-bags.jpg);
+}
+
+/* cart */
+.container {
+    display: inline-block;
+    background-color: #f9b8ff;
+    border: .1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    margin: 20px;
+    box-shadow: 1px 1px 8px black;
+    transform: 2s all ease;
+    transition-duration: .3s;
+}
+
+.container:hover {
+    transform: translateY(-10px);
+    box-shadow: 5px 6px 2px black;
+    border: .1px solid rgba(0, 0, 0, 0.463);
+}
+
+/* image */
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 179px;
+
+}
+
+/* text */
+.text {
+
+    text-align: center;
+    /* padding: 5px 0px 10px ; */
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+}
+
+/* price */
+.price {
+    display: flex;
+    border-top: 1px solid black;
+    padding: 6px 0px 0px 0px;
+    margin: 10px 10px 6px 10px;
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+.-price {
+    margin-top: 2px;
+
+
+    /* text */
+}
+
+.para {
+    text-align: center;
+    margin-top: 3px;
+}
+
+/* button */
+.btn {
+    display: flex;
+}
+
+.btnn {
+
+    padding: 3px 2px 2px 2px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 2px;
+    font-size: 20px;
+    transform: 2s all ease;
+    transition-duration: .3s;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+.btnn:hover {
+    transform: translatey(-3px);
+    cursor: pointer;
+   
+   
+}
+
+/* main */
+#main {
+    display: flex;
+
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* creadit */
+.creadit {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column-reverse; */
+    align-self: flex-end;
+
+}
